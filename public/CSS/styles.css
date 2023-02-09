@@ -305,8 +305,12 @@ a:hover{
 .iconos-pie{
     transition: all 400ms;
 }
+.iconos-pie i{
+    transition: all 1200ms;
+}
 .iconos-pie:hover i{
     color: #39b54a;
+    transform: scale(1.3, 1.3) rotate(720deg);
 }
 
 @media(max-width: 575px){
@@ -316,12 +320,6 @@ a:hover{
     }
     .main-navbar{
         display: none;
-    }
-    .fa-bars{
-        transition: all 400ms;
-    }
-    .fa-bars:hover .main-navbar{
-        display: block;
     }
 }
 .main-article:hover + .descripcion{
