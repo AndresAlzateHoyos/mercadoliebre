@@ -148,14 +148,14 @@ article img{
 }
 .busqueda1{
     text-align: center;
-    width: 80%;
+    width: 70%;
     margin:auto;
     padding: 10px;
     position: relative;
     
 }
 .buscar-productos{
-    width: 100%;
+    width: 80%;
 }
 .logobarra-mitad{
     display: flex;
@@ -356,7 +356,7 @@ a:hover{
     }
     .main-header{
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         padding-bottom: 20px;
     }
     article{
@@ -374,7 +374,7 @@ a:hover{
         justify-content: space-around;
     }
     .centered{
-        width: 20%;
+        width: 30%;
         text-align: right;
     }
     .main-navbar ul{
